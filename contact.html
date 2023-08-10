@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Clínica Odontológica</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+        <ul>
+            <li class="menu-bar"><a href="./index.html">Home</a></li>
+            <li class="menu-bar"><a href="./about.html">Sobre nós</a></li>
+            <li class="menu-bar"><a href="./service.html">Nossos Horários</a></li>
+            <li class="menu-bar"><a href="./contact.html">Contatos</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="header">
+           <img src="./assets/img/pexels-pixabay-39578.jpg" width="1000" height="400" alt="Imagem de uma clínica odontológica">
+        </div>
+        <div class="content">
+          <h2>Contatos</h2>
+          <p>Telefone: (51) 30303333</p>
+          <p>WhatsApp: (51) 99999-9999</p>
+          <p>E-mail: clinicasorriso@saudavel.com.br</p>
+          <h2>Endereço</h2>
+          <p>Av. Pedro Adams Filho, 5114 - Industrial, Novo Hamburgo - RS, 93510-015</p>
+          <form>
+            <label for="nomeSobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomeSobrenome" class="input-padrao" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+          <fieldset>
+            <legend class="teste" id="teste">Como prefere nosso contato?</legend>
+              <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label> 
+              <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+              <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+          </fieldset>
+          <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                  <option>Manhã</option>
+                  <option>Tarde</option>
+                  <option>Noite</option>
+                </select>
+          </fieldset>
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por e-mail?</label>
+             <input type="submit" value="Enviar formulário" class="enviar">
+          </form>
+          <div class="mapa-conteudo">                 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.1114705440714!2d-51.13207858766211!3d-29.687547714716608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951943ae648001ab%3A0xb503534a98f92ab2!2sAv.%20Pedro%20Adams%20Filho%2C%205114%20-%20Industrial%2C%20Novo%20Hamburgo%20-%20RS%2C%2093510-015!5e0!3m2!1spt-BR!2sbr!4v1691683240944!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+          <div class="container-fluid">
+          <li>Contatos: clinicasorriso@saudavel.com.br</li>
+          <li><img src="./assets/img/icons8-facebook-30.png" alt=""></li>
+          <li><img src="./assets/img/icons8-instagram-30.png" alt=""></li>
+          <li><img src="./assets/img/icons8-twitter-30.png" alt=""></li>
+        </div>
+        <p class="copyright">&copy; Copyright Cliníca do Sorriso - 2023</p>
+      </div>
+</div>
+</body>
+</html>
