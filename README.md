@@ -1,6 +1,12 @@
 # Trilha HTML - Dio.me
 ## Módulo 02 - HTML I - Conceitos Básicos
 
+Acesse o projeto através do link: [Clínica](https://desafio-trilha-html-clinica.vercel.app/)
+
+ ### 👁 O resultado
+
+![localhost_4200_ (1)](https://github.com/IaraTassi/desafio-trilha-html-clinica/blob/master/clinica.png)
+
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
 - Formulários
 - Estruturação e formatação de texto
